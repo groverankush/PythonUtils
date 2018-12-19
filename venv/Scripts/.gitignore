@@ -1,0 +1,6 @@
+*.pyd
+*.bat
+*.ps1
+/activate
+*.dll
+*.exe

@@ -4,7 +4,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-path = "/home/emp272/Desktop"
+path = "C:\\Users\\ankush.grover\\Desktop"
 os.chdir(path)
 
 tree = ET.parse("strings.xml")

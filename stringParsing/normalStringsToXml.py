@@ -1,10 +1,11 @@
 import os
 
-path = "/home/emp272/Desktop"
+# path = "/home/emp272/Desktop"
+path = "C:\\Users\\ankush.grover\\Desktop"
 os.chdir(path)
 
 keys = open('keys.txt', 'r')
-values = open('values.txt', 'r')
+values = open('values.txt', 'r', encoding="utf8")
 
 result = open('result.txt', 'w')
 
